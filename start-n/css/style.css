@@ -764,3 +764,16 @@ body{
 .breadcrumbs__list-item:last-child::after{
     display: none;
 }
+
+.catalog{
+    margin-bottom: 100px;
+}
+
+.catalog__title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 26px;
+    color: #2F3035;
+    font-family: 'SFProDisplay-Bold', sans-serif;
+}
