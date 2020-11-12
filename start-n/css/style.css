@@ -1628,3 +1628,11 @@ button.catalog__filter-btnline{
 .products-slider .slick-dots .slick-active button{
     background-color: #1C62CD;
 }
+
+.product-card__btn-mobile{
+    display: none;
+}
+
+.footer__topdrop{
+    pointer-events: none;
+}

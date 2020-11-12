@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/jquery.formstyler.css">
   <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   
@@ -240,6 +241,9 @@
           <a class="product-card__link" href="#">
             Нашли дешевле? Снизим цену!
           </a>
+          <div class="product-card__btn product-card__btn-mobile">
+            <button>купить</button>
+          </div>
         </div>
         <div class="product-card__content">
           <h1 class="product-card__title">
@@ -328,11 +332,11 @@
       </div>
     </div>
   </section>
-<!-- 
+
   <section class="card__tabs">
     <div class="container">
       <div class="tabs-wrapper">
-        <div class="tabs card__tab-box">
+        <div class="tabs card__tab-box mobile-overflow">
           <a class="tab card__tab" href="#product-card__tabs-1">О товаре</a>
           <a class="tab card__tab" href="#product-card__tabs-2">Характеристики</a>
           <a class="tab card__tab" href="#product-card__tabs-3">Отзывы</a>
@@ -439,23 +443,23 @@
           <div id="product-card__tabs-5" class="card__tab-content tabs-content">content</div>
           <div id="product-card__tabs-6" class="card__tab-content tabs-content">content</div>
           <div id="product-card__tabs-7" class="card__tab-content tabs-content">content</div>
-        </div>
       </div>
     </div>
   </section>
--->
+
   <section class="products">
     <div class="container">
       <div class="products__inner">
         <h3 class="products__title">С этим товаром покупают</h3>
         <div class="tabs-wrapper">
-          <div class="tabs products__tabs">
+          <div class="tabs products__tabs mobile-overflow">
             <a class="tab products__tab tab--active" href="#popular-tab-1">запчасти</a>
             <a class="tab products__tab" href="#popular-tab-2">моторы</a>
             <a class="tab products__tab" href="#popular-tab-3">шины</a>
             <a class="tab products__tab" href="#popular-tab-4">электроника</a>
             <a class="tab products__tab" href="#popular-tab-5">инструменты</a>
             <a class="tab products__tab" href="#popular-tab-6">аксессуары</a>
+          </div>
           </div>
           <div class="tabs-container products__container">
             <div id="popular-tab-1" class="tabs-content products__content tabs-content--active">
@@ -837,7 +841,6 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <footer class="footer">
