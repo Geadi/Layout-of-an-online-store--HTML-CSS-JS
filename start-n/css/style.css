@@ -250,6 +250,10 @@ body{
     background-color: transparent;
 }
 
+.slick-dots .slick-active button{
+    background-color: #fff;
+}
+
 .slick-active li button{
     background-color: #fff;
     outline-style: none;
@@ -1606,4 +1610,17 @@ button.catalog__filter-btnline{
     background-color: #1C62CD;
     border-radius: 3px;
     border: none;
+}
+
+.products-slider .slick-dots{
+    bottom: -30px;
+}
+
+.products-slider .slick-dots button{
+    background-color: #C4C4C4;
+    outline-style: none;
+}
+
+.products-slider .slick-dots .slick-active button{
+    background-color: #1C62CD;
 }
